@@ -1,12 +1,15 @@
 package com.tts;
 
 import com.tts.calculator.Calculator;
+import com.tts.calculator.MagicCalc;
 
 public class Main {
 
     public static void main(String[] args) {
         Calculator myCalc = new Calculator();
+        MagicCalc myMagicCalc = new MagicCalc();
 
+        // Testing Calculator Class
         System.out.println("Adding 1 and 2:");
         System.out.println(myCalc.add(1,2));
 
@@ -21,5 +24,21 @@ public class Main {
 
         System.out.println("Squaring 4:");
         System.out.println(myCalc.square(4));
+
+        // Testing MagicCalc Class
+        System.out.println("Square root of 12:");
+        System.out.println(myMagicCalc.squareRoot(12));
+
+        System.out.println("Sin of 30:");
+        System.out.println(myMagicCalc.sin(30));
+
+        System.out.println("Cosine of 30:");
+        System.out.println(myMagicCalc.cosine(30));
+
+        System.out.println("Tangent of 30:");
+        System.out.println(myMagicCalc.tangent(30));
+
+        System.out.println("Factorial of 5:");
+        System.out.println(myMagicCalc.factorial(5));
     }
 }
