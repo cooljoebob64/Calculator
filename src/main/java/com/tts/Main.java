@@ -39,5 +39,11 @@ public class Main {
 
         System.out.println("Factorial of 5:");
         System.out.println(myMagicCalc.factorial(5));
+
+        System.out.println("Taking 4 to the power of 3:");
+        System.out.println(myMagicCalc.powerOf(4, 3));
+
+        System.out.println("Finding the log (base 10) of 15:");
+        System.out.println(myMagicCalc.log(15));
     }
 }
